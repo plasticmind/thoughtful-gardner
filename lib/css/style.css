@@ -1,0 +1,20 @@
+body {
+	font: 14px Helvetica, Arial, sans-serif;
+}
+#container {
+	max-width: 400px;
+	margin: 0 auto;
+}
+h1 {
+	background: transparent url(/lib/img/logo.png) no-repeat;
+	height: 500px;	
+}
+h2 {
+	background: transparent url(/lib/img/soy-candles.png) no-repeat;
+	height: 550px;	
+}
+h1, h2 {
+	text-indent: -999em;
+	background-size: 100%;
+	max-width: 400px;
+}

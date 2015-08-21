@@ -69,7 +69,6 @@ a {
 	border: solid 1px #000;
 	color: #000;
 	text-transform: uppercase;
-
 }
 .social {
 	text-align: center;
@@ -78,9 +77,9 @@ a {
 	color: #000;
 	font-size: 14px;
 	font-weight: bold;
-	border: solid 4px #000;
+	border: solid 3px #000;
 	padding: 7px 20px;
-	border-radius: 8px;
+	border-radius: 2px;
 }
 @media only screen and (max-width: 439px) {
 	.mc-field-group {

@@ -1,5 +1,6 @@
 body {
 	font: 14px Helvetica, Arial, sans-serif;
+	padding: 10px;
 }
 #container {
 	max-width: 400px;
@@ -17,4 +18,65 @@ h1, h2 {
 	text-indent: -999em;
 	background-size: 100%;
 	max-width: 400px;
+}
+a {
+	color:#d64f27;
+	text-decoration: none;
+}
+.email-subscribe {
+	text-align:center;
+	font-size:15px;
+	line-height:1.4;
+}
+.email-subscribe p {
+	font-size: 18px;
+}
+.form {
+	overflow: auto;
+	border-radius:4px;
+	font-weight:bold;
+	font-size:15px;
+	text-transform:uppercase;
+	background:#d64f27;
+	padding:15px 25px;color:#fff
+}
+.email {
+	margin-top: -1px;
+	border:transparent;
+	padding:4px;
+	margin-left:2px;
+	border-radius: 2px;
+}
+.button {
+	margin-top: 1px;
+	border: transparent;
+	background: white;
+	border-radius: 2px;
+	padding: 3px 6px 4px;
+	float: right;
+	background-color: #d64f27;
+	border: solid 1px #000;
+	color: #000;
+	text-transform: uppercase;
+
+}
+@media only screen and (max-width: 427px) {
+	.mc-field-group {
+		float:none !important;
+	}
+    .button,
+    .email {
+    	clear: both;
+    	display: block;
+    	float: none;
+    	margin: 6px auto;
+    	font-size: 13px;
+    }
+    .button {
+    	padding: 4px 12px;
+    }
+    .email {
+    	margin-bottom:10px;
+    	width: 80%;
+    }
 }
